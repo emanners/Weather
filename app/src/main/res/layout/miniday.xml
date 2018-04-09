@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:showIn="@layout/content_main">
+
+    <TextView
+        android:id="@+id/dayText"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/mini_day_font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dayTemp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/mini_day_font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dayIcon"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/mini_day_font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>
